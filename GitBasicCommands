@@ -1,0 +1,3 @@
+git add .                     (ajoute les repertoires ciblés, . pour répertoir actuel)
+git commit -m "commentaire"   (mets a jour en local le repertoir git)
+git push -u origin main       (pushes commits on github)
