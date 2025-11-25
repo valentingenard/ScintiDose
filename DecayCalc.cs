@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,32 +9,38 @@ namespace ScintiDose0._1
 {
     internal class DecayCalc
     {
-        string Preparationtime {  get; set; }
-        string Injectiontime { get; set; }
-        double Activity {  get; set; }
+        string PreparationTime {  get; }
+        string InjectionTime { get; }
+        double Activity {  get; }
 
-        public DecayCalc(string preparationtime, string injectiontime, double activity)
+        public DecayCalc(string preparationTime, string injectionTime, double activity)
         {
-            Preparationtime = preparationtime;
-            Injectiontime = injectiontime;
+            if (string.IsNullOrWhiteSpace(preparationTime))
+                throw new ArgumentException("Preparation time cannot be empty.");
+
+            if (string.IsNullOrWhiteSpace(injectionTime))
+                throw new ArgumentException("Injection time cannot be empty.");
+
+            if (activity <= 0)
+                throw new ArgumentException("Activity must be positive.");
+
+            PreparationTime = preparationTime;
+            InjectionTime = injectionTime;
             Activity = activity;
         }
 
         public double Operate() 
         {
 
-                DecimalHour inj = new DecimalHour(Injectiontime);
-                DecimalHour prep = new DecimalHour(Preparationtime);
-                if (prep.Result() - inj.Result() > 0) 
+                DecimalHour inj = new DecimalHour(InjectionTime);
+                DecimalHour prep = new DecimalHour(PreparationTime);
+                double elapsed = prep.Result() - inj.Result();
+
+            if (elapsed < 0) 
                 {
-                    double elapsed = prep.Result() - inj.Result();
-                    //activité à prélever = activité cible * (2)exposant temps/6
-                    double activiteInitiale = Activity * Math.Pow(2, (elapsed / 6));
-                    return activiteInitiale;
+                    throw new InvalidOperationException("Elapsed time cannot be negative.");
                 }
-                else { throw new Exception("Elapsed time cannot be negative."); }
-
-
+            return Activity* Math.Pow(2, (elapsed / 6.0));
         }
     }
 }

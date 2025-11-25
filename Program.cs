@@ -14,6 +14,7 @@
             DecayCalc decay = new DecayCalc("09:30", "07:30", 20);
             Console.WriteLine(decay.Operate());
 
+
             //Console.WriteLine(heure2.Result() - heure.Result());
             Console.WriteLine(heure4.Result() - heure3.Result());
             Console.ReadKey();
