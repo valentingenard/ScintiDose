@@ -26,7 +26,7 @@ namespace ScintiDose0._1
 
             PreparationTime = preparationTime;
             InjectionTime = injectionTime;
-            Activity = activity;
+            Activity = activity; 
         }
 
         public double Operate() 
@@ -40,7 +40,9 @@ namespace ScintiDose0._1
                 {
                     throw new InvalidOperationException("Elapsed time cannot be negative.");
                 }
-            return Activity* Math.Pow(2, (elapsed / 6.0));
+
+            double decayFactor = Math.Pow(2, elapsed / 6.0);
+            return Activity * decayFactor;
         }
     }
 }

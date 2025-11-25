@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\valen\\Documents\\ScintiDose\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4F58065-0DC5-F21C-09DB-DEDA76A1CDDB}|ScintiDose0.1.csproj|c:\\users\\valen\\documents\\scintidose\\decaycalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F58065-0DC5-F21C-09DB-DEDA76A1CDDB}|ScintiDose0.1.csproj|solutionrelative:decaycalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4F58065-0DC5-F21C-09DB-DEDA76A1CDDB}|ScintiDose0.1.csproj|c:\\users\\valen\\documents\\scintidose\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F58065-0DC5-F21C-09DB-DEDA76A1CDDB}|ScintiDose0.1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,47 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DecayCalc.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Documents\\ScintiDose\\DecayCalc.cs",
+              "RelativeDocumentMoniker": "DecayCalc.cs",
+              "ToolTip": "C:\\Users\\valen\\Documents\\ScintiDose\\DecayCalc.cs",
+              "RelativeToolTip": "DecayCalc.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T20:08:08.258Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DecimalHour.cs",
               "DocumentMoniker": "C:\\Users\\valen\\Documents\\ScintiDose\\DecimalHour.cs",
               "RelativeDocumentMoniker": "DecimalHour.cs",
               "ToolTip": "C:\\Users\\valen\\Documents\\ScintiDose\\DecimalHour.cs",
               "RelativeToolTip": "DecimalHour.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T07:11:04.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Exam.cs",
               "DocumentMoniker": "C:\\Users\\valen\\Documents\\ScintiDose\\Exam.cs",
               "RelativeDocumentMoniker": "Exam.cs",
               "ToolTip": "C:\\Users\\valen\\Documents\\ScintiDose\\Exam.cs",
               "RelativeToolTip": "Exam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T13:26:59.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\valen\\Documents\\ScintiDose\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\valen\\Documents\\ScintiDose\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T07:05:05.702Z",
               "EditorCaption": ""

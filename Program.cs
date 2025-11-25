@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Exam calculExamen = new Exam("coeur", 75);
+            Exam calculExamen = new Exam("osseuse", 300);
             Console.WriteLine($"l'activité que le patient dois recevoir: {calculExamen.Activity()}");
             
             DecayCalc decay = new DecayCalc("09:30", "07:30", calculExamen.Activity());
