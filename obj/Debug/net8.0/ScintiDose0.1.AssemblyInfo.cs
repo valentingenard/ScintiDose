@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScintiDose0.1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1a461ad8aaecf6325d21c7ed007771cbaebc02d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e987068af6f5403f07eac3afa209b7d8e838e8a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScintiDose0.1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScintiDose0.1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
